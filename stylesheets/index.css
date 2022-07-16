@@ -1,0 +1,70 @@
+.mainSection{
+  border: solid red;
+  flex-wrap: wrap;
+}
+
+.productCardContainer{
+  
+    height:75vh;
+    width:100%;
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: solid green 1px ;
+    flex-wrap: wrap;
+   
+}
+
+
+.productCardContainer form{
+
+    height: 90%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-shadow: 1px 1px 10px black;
+    flex-wrap: wrap;
+
+}
+
+#product1{
+
+border: solid green 3px ;
+
+}
+#product2{
+
+    border: solid rgb(80, 50, 11) 3px ;
+    
+    }
+    #product3{
+
+        border: solid rgb(3, 59, 3) 3px ;
+        
+        }
+
+.productCardContainer form .imgSection{
+
+
+    height:80%;
+    width: 80%;
+    background-image: url("brown.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    border: solid;
+}
+
+
+@media screen and(min-width:360px) {
+    
+}
+
+
